@@ -22,7 +22,7 @@
   $('document').ready(()=>{
 
     caseRegistration.addEventListener('click',()=>{
-    $('.content').load('html/reg.html')
+    $('.content').load('reg.html')
     })
 
     about.addEventListener('click',()=>{
