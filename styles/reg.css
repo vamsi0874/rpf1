@@ -1,0 +1,225 @@
+
+.regs{
+    margin-left: 10rem;
+
+}
+.second-container{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.second-container header{
+    position: relative;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #d63131;
+}
+
+.second-container form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 490px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.second-container form .form{
+    position: absolute;
+    background-color: #fff;
+    transition: 0.3s ease;
+}
+
+.second-container form .title{
+    padding-left: 0px;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+.second-container form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+form .fields .input-field{
+    display: flex;
+    width: calc(100% / 3 - 15px);
+
+    flex-direction: column;
+    margin: 4px 0;
+}
+.input-field label{
+    font-size: 17px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+.input-field input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #343232;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+  
+}
+.input-field input :focus,
+.input-field select:focus{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.input-field select,
+.input-field input[type="date"]{
+    color: #707070;
+}
+.input-field input[type="date"]:valid{
+    color: #6b3739;
+}
+.second {
+display: flex;
+flex-direction: column;
+}
+.Details {
+    font-weight: 500;
+    padding: 10px 0px;
+}
+span{
+  padding: 3px 0px;
+}
+
+label.Details{
+display: flex;
+justify-content: center;
+color: brown;
+font-size: 1.2em;
+}
+
+
+.buttons{
+padding: 10px 0px;
+display: flex;
+justify-content: center;
+margin-right:20rem;
+}
+.btn {
+    padding: 9px;
+    margin: 10px;
+    background-color: rgb(0, 92, 162);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+form button:hover{
+    background-color: #265df2;
+}
+a {
+    color: white;
+    text-decoration: none;
+
+} 
+/* trail*/
+.second-container.trail{
+    display: flex;
+    flex-direction: column;
+}
+.fields.trail 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.second.trail{
+    display: flex;
+    flex-direction: column;
+}
+.second-container.trail header{
+    
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #b82d2d;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+.input-field label{
+    font-size: 17px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+.input-field input, select,
+.second input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #343232;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+    width: 95%; /* 15em*/
+}
+.second-container form .title{
+    padding-left: 0px;
+    color: brown;
+    display: flex;
+    width: max-content;
+    font-size: 1.3em;
+}
+
+.buttons{
+    padding: 0px 0px;
+    display: flex;
+    justify-content: end;
+    }
+    .btn {
+        padding: 9px;
+        margin: 10px;
+        background-color: rgb(0, 92, 162);
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s linear;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    
+    } 
+    .input-field.post label{
+        padding-right: 2.5rem;
+    }
+ .trail{
+   display: grid;
+   justify-content: center;
+
+ }
+ select{
+    width: 210px;
+ }
+ .main{
+    margin-left: 20px;
+ }
+ form{
+    display: flex;
+    justify-content: center;
+ }
+input.crime{
+    margin-left: 33px;
+}
+
+
