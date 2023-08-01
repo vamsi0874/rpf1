@@ -1,0 +1,153 @@
+.cDcontainer {
+    display: grid;
+    gap: 20px;
+    place-items: center;
+    background-color: #fff;
+ }
+select{
+    font-size: 15px;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+}
+ .cD-title {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-size: 1.7em;
+    color: brown;
+ }
+ .form.first {
+    display: grid;
+    justify-content: center;
+
+ }
+
+
+ .cD-fields {
+    display: grid;
+    gap: 5px;
+    column-gap: 20px;
+    grid-template-columns: minmax(auto,50%) minmax(auto,50%);
+  
+ }
+ .cD-input-field {
+    display: grid;
+    gap:20px;
+    grid-template-columns:100px 200px;
+    /* display: flex; */
+    margin: 4px 0;
+    
+ }
+ input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #343232;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 40px;
+}
+
+.cD-input-field label{
+    font-size: 17px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+.cD-buttons{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap:10px;
+    justify-content: center;
+    
+
+}
+span {
+    color: rgb(255, 255, 255);
+    font-size: .9rem;
+    text-decoration: none;
+  
+}
+.cD-btn{
+    padding: 9px;
+    margin: 10px;
+    background-color: rgb(27, 117, 186);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
+
+textarea{
+    border: 1px solid #aaa;
+}
+select {
+    
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #343232;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 40px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+
+}  
+/* */
+.disposal {
+    display: grid;
+    gap: 5px;
+    column-gap: 20px;
+    grid-template-columns: 100px;
+    grid-column: subgrid;
+ 
+ }
+ .cDd-input-field {
+    display: grid;
+    gap:29px;
+    grid-template-columns:110px 200px;
+    /* display: flex; */
+    margin: 4px 0;
+    
+ }
+
+ .cDd-buttons{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    
+
+}
+.cDd-input-field input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #343232;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 35px;
+}
+.cDd-input-field select {
+    
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #343232;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 35px;
+
+}

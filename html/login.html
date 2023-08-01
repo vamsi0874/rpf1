@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/login.css">
+</head>
+<body>
+    
+    <header class="header">
+        <img class="scr" src="../logo/scr.jpg">
+        <h2 class="logo">South Central Railway</h2>
+        <img class="badge" src="../logo/badge.png">
+        <!-- <h1>Railway Protection Force</h1>  -->
+         <!-- <nav class="nav">   
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>           
+        </nav> -->
+    </header>
+  
+<div class="wrapper">
+     <div class="form-box login">
+       
+        <h2>Login</h2>
+    <form action="main.html"> 
+        <div class="input-box">
+            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+            <input type="text" name="name" id="name" required/>
+            <label for="name">Username</label>
+        </div>  
+
+        <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon>
+            </span>
+            <input type="password" name="name" id="password" required>
+            <label for="name">password</label>
+        </div>
+
+        <div class="role">
+            <label class="authority">Authority :</label>
+            <select class="select" >
+                <option disabled selected>Select</option>
+                <option>DI</option>
+                <option>IPF</option>
+            </select>
+        </div>  
+
+        <div class="remember-forgot">
+             <label><input type="checkbox"> Remember me</label>
+             <a href="#">Forgot Password?</a>
+        </div>
+        <div class="buttonss">
+            <button class="btns">
+                <a href="#"><span class="">Submit</span></a>
+            </button>
+ 
+            <button class="btns">
+                <a href="#"><span class="">Reset</span></a>
+            </button>
+           
+           </div>
+
+      </form>  
+    </div> 
+
+ </div> 
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="../js/login.js"></script>
+</body>
+</html>
+
