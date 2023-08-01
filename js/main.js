@@ -26,20 +26,20 @@
     })
 
     about.addEventListener('click',()=>{
-      $('.content').load('html/about.html')
+      $('.content').load('about.html')
       
       })
     trail.addEventListener('click',()=>{
-      $('.content').load('html/trail.html')
+      $('.content').load('trail.html')
       
       })
       
     ptc.addEventListener('click',()=>{
-      $('.content').load('html/ptc.html')
+      $('.content').load('ptc.html')
       
       })
     disposals.addEventListener('click',()=>{
-      $('.content').load('html/disposal.html')
+      $('.content').load('disposal.html')
       
       })
 
