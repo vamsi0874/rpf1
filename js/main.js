@@ -26,7 +26,7 @@
     })
 
     about.addEventListener('click',()=>{
-      $('.content').load('about.html')
+      $('.content').load('html/about.html')
       
       })
     trail.addEventListener('click',()=>{
