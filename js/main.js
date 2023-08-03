@@ -6,6 +6,7 @@
   const content=document.querySelector('.content')
   const caseRegistration=document.querySelector('a.sidebar-link.case-Registration')
   const about=document.querySelector('a.sidebar-link.about')
+  const ab=document.querySelector('a.ab')
   
   const trail=document.querySelector('a.sidebar-link.trail-case')
   const ptc=document.querySelector('a.sidebar-link.ptc')
@@ -40,6 +41,10 @@
       })
     disposals.addEventListener('click',()=>{
       $('.content').load('disposal.html')
+      
+      })
+    ab.addEventListener('click',()=>{
+      $('.content').load('html/about.html')
       
       })
 
