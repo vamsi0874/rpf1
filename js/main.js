@@ -11,6 +11,7 @@
   const trail=document.querySelector('a.sidebar-link.trail-case')
   const ptc=document.querySelector('a.sidebar-link.ptc')
   const disposals=document.querySelector('a.sidebar-link.disposals')
+  const submit=document.querySelector('a.sidebar-link.disposals')
 
   // const up=document.querySelector('a.sidebar-link.case-Registration')
   // const hi=document.querySelector('.hi')
